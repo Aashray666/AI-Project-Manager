@@ -1,0 +1,62 @@
+[
+  {
+    "id": "emp_1",
+    "name": "Anita Deshmukh",
+    "skills": "Python, Data Science, ML",
+    "experience": 5
+  },
+  {
+    "id": "emp_2",
+    "name": "Ravi Kumar",
+    "skills": "Java, Spring Boot, Microservices",
+    "experience": 7
+  },
+  {
+    "id": "emp_3",
+    "name": "Meera Sharma",
+    "skills": "React, JavaScript, UI/UX",
+    "experience": 4
+  },
+  {
+    "id": "emp_4",
+    "name": "Sohail Shaikh",
+    "skills": "DevOps, Docker, Kubernetes",
+    "experience": 6
+  },
+  {
+    "id": "emp_5",
+    "name": "Priya Iyer",
+    "skills": "Data Analysis, SQL, Power BI",
+    "experience": 3
+  },
+  {
+    "id": "emp_6",
+    "name": "Tanmay Joshi",
+    "skills": "Android, Kotlin, Firebase",
+    "experience": 5
+  },
+  {
+    "id": "emp_7",
+    "name": "Radhika Patil",
+    "skills": "Python, FastAPI, NLP",
+    "experience": 4
+  },
+  {
+    "id": "emp_8",
+    "name": "Vikram Singh",
+    "skills": "Azure, Terraform, CI/CD",
+    "experience": 8
+  },
+  {
+    "id": "emp_9",
+    "name": "Sneha Nair",
+    "skills": "JavaScript, Node.js, MongoDB",
+    "experience": 5
+  },
+  {
+    "id": "emp_10",
+    "name": "Arjun Mehta",
+    "skills": "C#, .NET Core, SQL Server",
+    "experience": 6
+  }
+]
