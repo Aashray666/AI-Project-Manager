@@ -149,7 +149,7 @@ API_KEY = "AIzaSyCjkHKz8PpUjJ0NXcafrKmB65E38eFrfrc" # PASTE YOUR GOOGLE AI API K
 def load_employees(filename: str = "employees.json") -> list[dict]:
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.abspath(os.path.join(script_dir, os.pardir))
-    data_path = r"C:\Users\aashr\Desktop\EmployeeA\data\employess.json"
+    data_path = "./data/employess.json"
 
     if not os.path.isfile(data_path):
         raise FileNotFoundError(f"Could not find employee file at {data_path}")
