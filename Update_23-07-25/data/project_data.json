@@ -1,0 +1,15 @@
+[
+    {
+        "title": "E-Commerce UI Renaissance: React.js Frontend Development",
+        "description": "This project focuses on crafting a user-friendly and aesthetically pleasing e-commerce frontend using React.js.  The goal is to deliver a seamless and engaging online shopping experience for customers, incorporating modern design principles and best practices for responsiveness and accessibility.  This will involve creating reusable components, managing state effectively, and integrating with backend systems (assumed to be provided).  The project prioritizes a clean, maintainable codebase that can be easily scaled and extended in the future.",
+        "team": [
+            "emp_3",
+            "emp_9"
+        ],
+        "proposed_budget": 5280,
+        "id": "f1320b69-c1d9-4012-9d6d-e9dddbd3b31d",
+        "status": "approved",
+        "tasks": [],
+        "user_budget": 5000
+    }
+]
