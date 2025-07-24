@@ -1,0 +1,147 @@
+/* --- Import Google Font --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ---=================================--- */
+/* ---         LIGHT THEME (DEFAULT)     --- */
+/* ---=================================--- */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
+
+.stApp {
+    background-color: #f0f2f6;
+}
+
+.main .block-container {
+    padding-top: 2rem;
+}
+
+.stButton > button {
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.stButton > button:hover {
+    border-color: #8a3ffc;
+    background-color: #f7f7f7;
+}
+
+.stButton > button:focus {
+    box-shadow: 0 0 0 2px #8a3ffc;
+    outline: none;
+}
+
+[data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] > [data-testid="stHorizontalBlock"] > div > [data-testid="stVerticalBlock"] > .st-emotion-cache-z5fcl4 {
+    background: linear-gradient(135deg, #8a3ffc, #ff62c5);
+    padding: 2px;
+    border-radius: 12px;
+}
+
+[data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] > [data-testid="stHorizontalBlock"] > div > [data-testid="stVerticalBlock"] > .st-emotion-cache-z5fcl4 > div {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.stTextInput input, .stTextArea textarea, .stNumberInput input, .stDateInput input, [data-testid="stSelectbox"] > div, [data-testid="stMultiselect"] > div {
+    background-color: #ffffff !important;
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 8px !important;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus, .stNumberInput input:focus, .stDateInput input:focus, [data-testid="stSelectbox"] > div:focus-within, [data-testid="stMultiselect"] > div:focus-within {
+    border-color: #8a3ffc !important;
+    box-shadow: 0 0 0 2px #8a3ffc !important;
+}
+
+.st-expander, .stAlert {
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+}
+
+.st-expander header { font-weight: 500; }
+
+[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+
+/* ---=================================--- */
+/* ---         DARK THEME OVERRIDES      --- */
+/* ---=================================--- */
+
+body.dark-mode {
+    color: #ffffff;
+}
+
+body.dark-mode .stApp {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode .stButton > button {
+    border-color: #4a4a4a;
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+body.dark-mode .stButton > button:hover {
+    border-color: #8a3ffc;
+    background-color: #3a3a3a;
+}
+
+body.dark-mode [data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] [data-testid="stVerticalBlock"] > [data-testid="stHorizontalBlock"] > div > [data-testid="stVerticalBlock"] > .st-emotion-cache-z5fcl4 > div {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .stTextInput input, body.dark-mode .stTextArea textarea, body.dark-mode .stNumberInput input, body.dark-mode .stDateInput input, body.dark-mode [data-testid="stSelectbox"] > div, body.dark-mode [data-testid="stMultiselect"] > div {
+    background-color: #2a2a2a !important;
+    border-color: #4a4a4a !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode .st-expander, body.dark-mode .stAlert {
+    border-color: #4a4a4a !important;
+    background-color: #2a2a2a !important;
+}
+
+body.dark-mode [data-testid="stSidebar"] {
+    background-color: #1e1e1e;
+    border-right-color: #2a2a2a;
+}
+
+body.dark-mode [data-testid="stSidebar"] .stRadio > div {
+    color: #ffffff;
+}
+
+/* ---=================================--- */
+/* ---         SHARED STYLES           --- */
+/* ---=================================--- */
+
+[data-testid="stHorizontalBlock"] > div:nth-of-type(2),
+[data-testid="stHorizontalBlock"] > div:nth-of-type(3) {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    position: relative; 
+}
+
+.logo-main img {
+    height: 45px !important; 
+    width: auto !important;
+    object-fit: contain;
+}
+
+.logo-maker img {
+    height: 105px !important;
+    width: auto !important;
+    object-fit: contain;
+    position: relative;
+    top: -20px;
+}
